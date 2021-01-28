@@ -4,8 +4,9 @@ struct stat
     int min,max;
     float average;
 };
+
 struct stat myval;
-auto Statistics::ComputeStatistics(const std::vector<___>&vect ) {
+auto Statistics::ComputeStatistics(const std::vector<T>&vect ) {
     //Implement statistics here
     myval.min,myval.max =vect[i];
     myval.average =0.0;
